@@ -1,0 +1,85 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 7vw;
+}
+
+.card {
+  display: inline-block;
+  width: 12vw;
+  margin:1vw;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card_title{
+  margin-top: 2vw;
+  font-size: 1.5vw;
+}
+.card_item {
+  border-radius: 4vw;
+  padding: 24px 0 32px;
+}
+
+.card_img{
+  width: 12vw;
+  border-radius: 4vw;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 80vw;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.modal-header {
+  height: 8px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  background-image: linear-gradient(-180deg, #ff1c68 0%, #9f0092 98%);
+}
+
+.modal img{
+  width:12vw;
+}
+.modal-introduction p {
+  color: #5876a3;
+  text-align: center;
+  margin: 2vw 10vw;
+}
+
+.modal-close-btn {
+  font-size: 13px;
+  color: #8491a5;
+  width: 20vw;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: .3s ease-in-out;
+}

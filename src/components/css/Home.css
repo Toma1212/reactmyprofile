@@ -1,0 +1,36 @@
+.home_main {
+  display: flex;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  font-family: Comic Sans MS;
+  font-size: 3vw;
+  font-weight: 80;
+  z-index: 2;
+  text-align: center;
+
+}
+
+.title span{
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+.backcolor{
+  margin-bottom: 2vw;
+}
+.backcolor span{
+  background:linear-gradient(transparent 35%, #c1ffff 75%);
+}
+s
+
+.wrapper{
+  background-image: url('../../image/hobby/baseball.JPG')
+}

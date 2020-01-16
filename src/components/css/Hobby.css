@@ -1,0 +1,26 @@
+.hobby_title{
+  font-family: Comic Sans MS;
+  margin-left: 7vw;
+  margin-top: 4vw;
+}
+
+.hobby_topic{
+  margin-left: 8vw;
+}
+.flex-list{
+  display: flex;
+  list-style: none;
+  margin-left: 5vw;
+}
+.bike_img{
+   width: 35vw;
+   padding: 2vw;
+   margin-left: 5vw;
+}
+
+.baseball_img{
+   width: 35vw;
+   padding: 2vw;
+   margin-left: 5vw;
+   text-align: center;
+}
